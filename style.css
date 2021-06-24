@@ -1,3 +1,24 @@
+body, html {
+	font-family:'Helvetica', 'Lato', sans-serif;
+	background-color: #f3f3f3;
+	font-size: 25px;
+
+}
+
+li {
+	list-style-type:none;
+	color: #444444;
+}
+
+li a{
+	text-decoration: none;
+	color: #444444;
+}
+
+section {
+	border-top: 2px solid #dedede;
+}
+
 .clear {
 	clear: both;
 }
@@ -5,23 +26,74 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 10px;
+	transform: translateX(130px)
+	
+}
+#headshot img {
+	border-radius: 50%;
+	transform:translateX(150px);
+	
 }
 
 #name {
 	float: left;
+	font-size:16px;
+	transform: translate(190px, 15px);
+	line-height: 0.50;
+	
+}
+#name h2 {
+	color: #444444;
+	font-family:'Rokkitt',sans-serif;
+	font-weight: 300;
+}
+
+
+p {
+	color: #444444;;
 }
 
 #contactDetails {
 	float: right;
+	margin-right: 200px;
+	
+		
 }
 
-.sectionTitle {
+
+#mainArea {
+	border-top: 2px solid #cf8a05;
+	width: 1500px;
+	transform: translateX(15%);
+	text-align: justify;
+	margin-top: 40px;
+}
+.sectionTitle h1 {
 	float: left;
 	width: 25%;
+	color:#cf8a05;
+	font-family: 'Rokkitt', sans-serif; 
+	font-style: italic;
+	font-size: 40px;
+	font-weight: 300;
+	
+}
+.subDetails{
+	color: #444444;
+}
+.sectionContent{
+	
+	float: left;
+	width: 72.5%;
+	color: #444444;
+	text-align:left;
+	
+}
+.sectionContent .keySkills li {
+	display:inline-table;
+	width: 344px;
+	margin-left:-35px;
+	
 }
 
-.sectionContent {
-	float: right;
-	width: 72.5%;
-}
