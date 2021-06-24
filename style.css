@@ -5,6 +5,7 @@ body, html {
 
 }
 
+
 li {
 	list-style-type:none;
 	color: #444444;
@@ -81,6 +82,9 @@ p {
 }
 .subDetails{
 	color: #444444;
+	font-style: italic;
+	line-height: 0.1;
+	
 }
 .sectionContent{
 	
@@ -88,6 +92,7 @@ p {
 	width: 72.5%;
 	color: #444444;
 	text-align:left;
+	
 	
 }
 .sectionContent .keySkills li {
